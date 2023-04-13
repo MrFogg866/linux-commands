@@ -21,3 +21,17 @@
 19. `ctrlz` - will exit `top`
 20. `history` - shows all the commands used in that session
 21. `-rf` - will force delete 
+22. `ps -aux` - shows more specific information
+23. `cat filename | grep test` to find a specific item in `ps -aux`
+24. `kill pid#` - force quit
+25. `sudo su` - to use as superuser - but careful there are no warnings 
+26. `exit` - exit superuser 
+27. `apt install xxx` - install things (may need to add sudo at start)
+28. `sudo apt upgrade` - run any upgrades available
+29. `sudo systemctl status` - check status
+30. `sudo systemctl start xxxx` - start a server
+31. `sudo systemctl stop xxxx` - stop server
+32. `sudo systemctl  enable xxx` - enable
+33. `sudo nano provision.sh` - create a shell file
+34. `sudo chmod +x provision.sh` - change permissions
+35. `Sudo ./provision.sh` - run the script
